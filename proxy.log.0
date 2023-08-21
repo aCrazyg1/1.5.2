@@ -1,0 +1,61 @@
+10:29:12 [INFO] Unable to initialize fancy terminal. To fix this on Windows, install the correct Microsoft Visual C++ 2008 Runtime
+10:29:12 [INFO] NOTE: This error is non crucial, and BungeeCord will still function correctly! Do not bug the author about it unless you are still unable to get it working
+10:29:12 [INFO] Enabled BungeeCord version unknown
+10:29:13 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+10:29:13 [INFO] Listening websockets on /0.0.0.0:25565
+10:29:13 [INFO] Server bans.txt changed, it will be reloaded automatically
+
+10:29:13 [INFO] Reload complete
+
+10:29:13 [INFO] Listening on /127.11.0.1:54981
+10:30:37 [SEVERE] [/127.0.0.1:55028] <-> InitialHandler - encountered exception
+io.netty.handler.codec.DecoderException: java.lang.RuntimeException: Unknown packet id 115
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:393)
+	at io.netty.handler.codec.ByteToMessageDecoder.messageReceived(ByteToMessageDecoder.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeMessageReceived(DefaultChannelHandlerContext.java:379)
+	at io.netty.channel.DefaultChannelHandlerContext.fireMessageReceived(DefaultChannelHandlerContext.java:364)
+	at io.netty.handler.timeout.ReadTimeoutHandler.messageReceived(ReadTimeoutHandler.java:150)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeMessageReceived(DefaultChannelHandlerContext.java:379)
+	at io.netty.channel.DefaultChannelHandlerContext.fireMessageReceived(DefaultChannelHandlerContext.java:364)
+	at io.netty.channel.DefaultChannelPipeline.fireMessageReceived(DefaultChannelPipeline.java:786)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:120)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:489)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:429)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:360)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.RuntimeException: Unknown packet id 115
+	at net.md_5.bungee.protocol.Vanilla.read(Vanilla.java:131)
+	at net.md_5.bungee.netty.PacketDecoder.decode(PacketDecoder.java:21)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:356)
+	... 13 more
+10:30:40 [SEVERE] [/127.0.0.1:55039] <-> InitialHandler - encountered exception
+io.netty.handler.codec.DecoderException: java.lang.RuntimeException: Unknown packet id 115
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:393)
+	at io.netty.handler.codec.ByteToMessageDecoder.messageReceived(ByteToMessageDecoder.java:138)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeMessageReceived(DefaultChannelHandlerContext.java:379)
+	at io.netty.channel.DefaultChannelHandlerContext.fireMessageReceived(DefaultChannelHandlerContext.java:364)
+	at io.netty.handler.timeout.ReadTimeoutHandler.messageReceived(ReadTimeoutHandler.java:150)
+	at io.netty.channel.DefaultChannelHandlerContext.invokeMessageReceived(DefaultChannelHandlerContext.java:379)
+	at io.netty.channel.DefaultChannelHandlerContext.fireMessageReceived(DefaultChannelHandlerContext.java:364)
+	at io.netty.channel.DefaultChannelPipeline.fireMessageReceived(DefaultChannelPipeline.java:786)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:120)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:489)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:429)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:360)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:101)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.lang.RuntimeException: Unknown packet id 115
+	at net.md_5.bungee.protocol.Vanilla.read(Vanilla.java:131)
+	at net.md_5.bungee.netty.PacketDecoder.decode(PacketDecoder.java:21)
+	at io.netty.handler.codec.ReplayingDecoder.callDecode(ReplayingDecoder.java:356)
+	... 13 more
+10:31:29 [INFO] [Crazyg] <-> InitialHandler has connected
+10:31:29 [INFO] Player 'Crazyg' [/127.0.0.1] has remote websocket IP: 127.0.0.1
+
+10:31:29 [INFO] [Crazyg] disconnected with: §cCould not connect to default server, please try again later: java.net.ConnectException
+10:31:29 [INFO] [Crazyg] -> UpstreamBridge has disconnected
+10:31:48 [INFO] §cCommand not found
+10:31:52 [INFO] §cCommand not found
+10:31:54 [INFO] §cCommand not found
+10:31:57 [INFO] §cCommand not found

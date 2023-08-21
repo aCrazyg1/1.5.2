@@ -1,2 +1,5 @@
-# 1.5.2
-bungee for 1.5.2
+## EaglercraftBungee
+
+This is regular BungeeCord except it accepts WebSockets instead of raw TCP connections
+
+**To add an animated MOTD: [https://github.com/LAX1DUDE/eaglercraft-motd/](https://github.com/LAX1DUDE/eaglercraft-motd/)**
